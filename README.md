@@ -6,10 +6,6 @@
 [![License](https://img.shields.io/badge/license-MIT-white?style=flat-square&labelColor=000000)](LICENSE)
 [![Live](https://img.shields.io/badge/demo-GitHub%20Pages-white?style=flat-square&labelColor=000000)](https://kxz0tn.github.io/aetheris/)
 
-<p align="center">
-  <img src="docs/aetheris-hero.jpg" alt="Aetheris — holographic research station in a black void" width="100%" />
-</p>
-
 ---
 
 Aetheris is a **browser-based research station**. You move freely in a single 3D space and descend through biological scale — body, tissue, cells, molecules, then the nano/field layer — without loading screens. It is not a game with levels or scores. It is a classified-looking terminal for exploration, measurement, and tightly constrained intervention.
