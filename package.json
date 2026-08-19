@@ -1,0 +1,40 @@
+{
+  "name": "aetheris",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Aetheris — continuous multi-scale medical-engineering research platform (v0.0 Beta)",
+  "homepage": "https://kxz0tn.github.io/aetheris/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kxz0tn/aetheris.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kxz0tn/aetheris/issues"
+  },
+  "keywords": [
+    "aetheris",
+    "three.js",
+    "medical-visualization",
+    "scientific-visualization",
+    "research",
+    "webgl"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.4",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}

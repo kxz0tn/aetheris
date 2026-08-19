@@ -1,0 +1,51 @@
+/* AETHERIS — void chrome. No color. No decoration. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  overflow: hidden;
+}
+
+body {
+  color: #e8e8e8;
+  font-family: "Courier New", Courier, monospace;
+  user-select: none;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Military diagnostic readout. Sharp corners. No glow. No radius. */
+.aetheris-hud {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  pointer-events: none;
+  background: #000000;
+  border: 1px solid #c8c8c8;
+  color: #e8e8e8;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  font-variant-numeric: tabular-nums;
+  padding: 10px 12px;
+  white-space: pre;
+  min-width: 54ch;
+  max-height: calc(100vh - 32px);
+  overflow: hidden;
+}
